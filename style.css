@@ -1,0 +1,34 @@
+body {
+  /* background: linear-gradient(125deg, red, green, blue); */
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#collisionCanvas {
+  opacity: 0;
+}
+
+#layerCanvas {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#pauseBtn {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
